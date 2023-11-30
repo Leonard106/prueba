@@ -51,20 +51,174 @@ int main()
             }
             switch (respuesta)
             {
+            	
+            	
+            	
             	case 2:
-            		cout<<"2023 en algun lugar de Mexico. Eres un joven mexicano de 18 aÃƒÂ±os que por mucho tiempo haz estado jugando futbol en clubes juveniles, como delantero, y por fin llego el dia en que hubo una visoria. En ella haz mostrado tu gran talento y tus goles por ello tres clubes han querido contratarte escoge uno para continuar"<<endl<<endl;
+            		cout<<"Jugaste 3 temporadas para Pumas en donde obtuviste"<<endl;
+            		sueldo=10000*12*3;
+            		bono=2000*golesPrimera;
+           		 	cout<<"Goles:"<<golesPrimera<<endl;
+            		cout<<"Sueldo: $"<<sueldo<<endl;
+            		cout<<"Bonos: $"<<bono<<endl<<endl;
+            		gananciaPrimera=sueldo+bono;
+            		cout<<"Ganancia economica: $"<<gananciaPrimera<<endl;
+            		if (golesPrimera==0)
+	        		{
+	        			cout<<"Tuviste una pesima etapa en cuanto a goles, no marcaste  ninguno"<<endl<<endl;
+	        			oferta=10000;
+	        		}else if(golesPrimera>0 && golesPrimera<=20)
+	        		{
+	        			cout<<"Tuviste una mala etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=15000;
+	        		}else if(golesPrimera>20 && golesPrimera<=40)
+	        		{
+	        			cout<<"Tuviste una buena etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=20000;
+	        		}else if (golesPrimera>40)
+	        		{
+	        			cout<<"Tuviste una exelente etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=25000;
+	        		}
+    		        cout<<"Debido al rendimiento que has tenido y a la situación de los clubes, te han llegado las siguentes ofertas"<<endl;
             		cout<<"1.Salir del juego"<<endl;
-            		cout<<"2. Pumas. Condiciones: 3 temporadas de contrato, 10000 pesos mensuales y 2000 pesos de bono por cada gol"<<endl;
-            		cout<<"3. Mazatlan. Condiciones: 2 temporadas de contrato, 20000 pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
-            		cout<<"4. Necaxa. Condiciones: 2 temporadas, 12000 pesos mensuales y 2500 pesos de bono por cada gol"<<endl;
+            		cout<<"2. Pumas. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cout<<"3. Cruz Azul. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cout<<"4. Guadalajara. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
             		cin>>respuesta;
-            	break;
+            		switch (respuesta)
+					{
+						case 2:
+		
+						break;
+						case 3:
+		
+						break;
+						case 4:
+		
+						break;
+						case 1:
+							cout << "Saliendo del programa." << endl;
+        					return 0;
+        					break;
+        					default:
+        					cout << "Te equivocaste" <<endl<<endl;
+        					cout << "Game over" <<endl<<endl;
+					}
+				break;
+            	
+            	
+            	
 				case 3:
-            		
+            		cout<<"Jugaste 3 temporadas para Mazatlan en donde obtuviste"<<endl;
+            		sueldo=10000*12*3;
+            		bono=2000*golesPrimera;
+           		 	cout<<"Goles:"<<golesPrimera<<endl;
+            		cout<<"Sueldo: $"<<sueldo<<endl;
+            		cout<<"Bonos: $"<<bono<<endl<<endl;
+            		gananciaPrimera=sueldo+bono;
+            		cout<<"Ganancia economica: $"<<gananciaPrimera<<endl;
+            		if (golesPrimera==0)
+	        		{
+	        			cout<<"Tuviste una pesima etapa en cuanto a goles, no marcaste  ninguno"<<endl<<endl;
+	        			oferta=10000;
+	        		}else if(golesPrimera>0 && golesPrimera<=20)
+	        		{
+	        			cout<<"Tuviste una mala etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=15000;
+	        		}else if(golesPrimera>20 && golesPrimera<=40)
+	        		{
+	        			cout<<"Tuviste una buena etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=20000;
+	        		}else if (golesPrimera>40)
+	        		{
+	        			cout<<"Tuviste una exelente etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=25000;
+	        		}
+    		        cout<<"Debido al rendimiento que has tenido y a la situación de los clubes, te han llegado las siguentes ofertas"<<endl;
+            		cout<<"1.Salir del juego"<<endl;
+            		cout<<"2. Mazatlan. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cout<<"3. Cruz Azul. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cout<<"4. Guadalajara. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cin>>respuesta;
+					 switch (respuesta)
+					{
+						case 2:
+		
+						break;
+						case 3:
+		
+						break;
+						case 4:
+		
+						break;
+						case 1:
+							cout << "Saliendo del programa." << endl;
+        					return 0;
+        					break;
+        					default:
+        					cout << "Te equivocaste" <<endl<<endl;
+        					cout << "Game over" <<endl<<endl;
+					}           		
             	break;
+				
+				
+				
 				case 4:
-            		
+            		cout<<"Jugaste 3 temporadas para Necaxa en donde obtuviste"<<endl;
+            		sueldo=10000*12*3;
+            		bono=2000*golesPrimera;
+           		 	cout<<"Goles:"<<golesPrimera<<endl;
+            		cout<<"Sueldo: $"<<sueldo<<endl;
+            		cout<<"Bonos: $"<<bono<<endl<<endl;
+            		gananciaPrimera=sueldo+bono;
+            		cout<<"Ganancia economica: $"<<gananciaPrimera<<endl;
+            		if (golesPrimera==0)
+	        		{
+	        			cout<<"Tuviste una pesima etapa en cuanto a goles, no marcaste  ninguno"<<endl<<endl;
+	        			oferta=10000;
+	        		}else if(golesPrimera>0 && golesPrimera<=20)
+	        		{
+	        			cout<<"Tuviste una mala etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=15000;
+	        		}else if(golesPrimera>20 && golesPrimera<=40)
+	        		{
+	        			cout<<"Tuviste una buena etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=20000;
+	        		}else if (golesPrimera>40)
+	        		{
+	        			cout<<"Tuviste una exelente etapa en cuanto a goles"<<endl<<endl;
+	        			oferta=25000;
+	        		}
+    		        cout<<"Debido al rendimiento que has tenido y a la situación de los clubes, te han llegado las siguentes ofertas"<<endl;
+            		cout<<"1.Salir del juego"<<endl;
+            		cout<<"2. Necaxa. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cout<<"3. Cruz Azul. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cout<<"4. Guadalajara. Condiciones: 5 temporadas de contrato,"<< oferta <<" pesos mensuales y 3000 pesos de bono por cada gol"<<endl;
+            		cin>>respuesta; 
+					switch (respuesta)
+					{
+						case 2:
+		
+						break;
+						case 3:
+		
+						break;
+						case 4:
+		
+						break;
+						case 1:
+							cout << "Saliendo del programa." << endl;
+        					return 0;
+        					break;
+        					default:
+        					cout << "Te equivocaste" <<endl<<endl;
+        					cout << "Game over" <<endl<<endl;
+					}           		
             	break;
+				
+				
+				
 				case 1:
             		cout << "Saliendo del programa." << endl;
             		return 0;  // Sale del programa
